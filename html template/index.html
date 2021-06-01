@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../css/all.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="item top-left">
+                <span class="top-left__baricon"><i class="fa fa-bars"></i></span>
+                <span class="top-left__imglogo">
+                    <img src="../assets/img/gmail.png" alt="" class="logo">
+                    <!-- <p>good morning</p> -->
+                </span>
+            </div>
+            <div class="item middle">
+                <div class="search">
+                    <span class="itemSearch searchIcon"><i class="fas fa-search"></i></span>
+
+                    <span class="itemSearch "><input type="text" placeholder="search mail" class="searchInput"></span>
+                    <span class="itemSearch searchArrow"><i class="fas fa-caret-down"></i></span>
+                </div>
+            </div>
+            <div class="item top-right">
+                <span class="itemTopRight questionCircle"><i class="far fa-question-circle"></i></span>
+                <span class="itemTopRight cog"><i class="fas fa-cog"></i></span>
+                <span class="itemTopRight allApps"><i class="fas fa-th"></i></span>
+                <span class="itemTopRight avatar">
+                    <p>m</p>
+                </span>
+            </div>
+        </div>
+        <div class="refreshLine">
+            <div class="left-box">
+                <span class="compose" id="open-modal">
+                    <img src="../assets/img/compose.jpg" alt="">
+                </span>
+            </div>
+            <div class="center-box">
+                <span class="checkbox"><input type="checkbox">
+                    <i class="fas fa-caret-down"></i></span>
+
+                <span><i class="fas fa-redo"></i></span>
+                <span><i class="fas fa-ellipsis-v"></i></span>
+            </div>
+            <div class="right-box">
+                <span>
+                    <p>1-50 of 1,665</p>
+                </span>
+                <span class="rightCenter"><i class="fas fa-angle-left"></i>
+
+                    <i class="fas fa-angle-right"></i></span>
+                <span>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-caret-down"></i>
+                </span>
+            </div>
+        </div>
+
+
+
+    </header>
+
+    <div class="optionsUl">
+
+        <ul class="options">
+            <li class="inbox">
+                <span class="icon-inbox"><a href=""><i class="fas fa-inbox"></i> Inbox</a></span>
+                <span class="text-inbox">
+                    <p>1,200</p>
+                </span>
+            </li>
+            <li class="icon-stared"><i class="fas fa-star"></i><a href="">Stared</a></li>
+            <li class="icon-snooze"><i class="fas fa-clock"></i><a href="">Snoozed</a></li>
+            <li class="icon-paper"><img src="../assets/img/paper-plane.png" alt="" class="fa-paper-plane"><a
+                    href="">Sent</a></li>
+            <li class="icon-drafts"><i class="fas fa-file"></i><a href="">Drafts</a></li>
+            <li class="icon-imapSent"><img src="../assets/img/trash.png" class="fa-imap-trash-sent" alt=""><a
+                    href="">[Imap]/Sent</a></li>
+            <li class="icon-imapTrash"><img src="../assets/img/trash.png" class="fa-imap-trash-sent" alt=""><a
+                    href="">[Imap]/Trash</a></li>
+            <li><i class="fas fa-angle-down"></i><a href="">More</a></li>
+
+        </ul>
+    </div>
+    <div class="sidebar-meet">
+        <div class="meet">
+            <p>Meet</p>
+        </div>
+        <span class="videoBard"><i class="fas fa-video"></i> <a href="">New Meeting</a></span>
+        <span class="keyboardBar"><i class="fas fa-keyboard"></i> <a href="">Join Meeting</a></span>
+    </div>
+    <div class="hangout-title">
+        <p>Hangouts</p>
+    </div>
+    <div class="sidebar-hangouts">
+
+        <span class="user-info">
+            <span class="avatars">
+                <p>m</p>
+            </span>
+
+
+        </span>
+        <span class="online"></span>
+        <span>
+            <span class="title">
+                <a href="">moha</a>
+                <span><i class="fas fa-caret-down"></i></span>
+            </span>
+            <span class="plus"><i class="fas fa-plus"></i></span>
+        </span>
+    </div>
+
+    <div class="recent">
+        <span class="info"><a href="">No recent chats</a></span>
+        <span class="start"><a href="">Start a new one</a></span>
+    </div>
+    <div class="bottom">
+        <div class="inside-bottom">
+            <span><i class="fas fa-user"></i></span>
+            <span class="userimg"><img src="../assets/img/hangout.png" alt=""></span>
+            <span><i class="fas fa-phone-alt"></i></span>
+        </div>
+    </div>
+    <div class="vip-body">
+        <div class="body-center">
+            <div class="header-choice">
+                <div class="primary" id="primary-color">
+                    <span ><i class="fas fa-inbox"></i></span>
+                    <span ><a href="">Primary</a></span>
+                </div>
+                <div class="social" id="social-color">
+                    <span ><i class="fas fa-user"></i></span>
+                    <span ><a href="">Social</a></span>
+                </div>
+                <div class="promotion" id="promotion-color">
+                    <span ><i class="fas fa-tag"></i></span>
+                    <span><a href="">Promotions</a></span>
+                </div>
+            </div>
+            <!-- <div class="topics">
+                <p>Top picks</p>
+            </div> -->
+            <div class="message">
+                <div class="address">
+                    <span><input type="checkbox"></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><a href="">Udacity</a></span>
+                </div>
+                <br>
+                <div class="text">
+                    <span class="text-subject">Receive 60% off when you enroll in the latest cybersecurity
+                        programs.</span>--
+                    <span class="text-body">To celebrate the launch of our School of Cybersecurity, we’re offering 60%
+                        off all courses sitewide. Our Nanodegree programs teach you the skills sought out by today’s top
+                        companies — in as little as 4 months</span>
+                    
+                </div>
+                <div class="time">
+                    <p> 8:31 AM</p>
+                 </div>
+                <!-- <div class="time"><p>1:47 PM</p></div> -->
+            </div>
+            <div class="message">
+                <div class="address">
+                    <span><input type="checkbox"></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><a href="">Medium Daily Digest</a></span>
+                </div>
+                <br>
+                <div class="text">
+                    <span class="text-subject">Receive 60% off when you enroll in the latest cybersecurity
+                        programs.</span>--
+                    <span class="text-body">To celebrate the launch of our School of Cybersecurity, we’re offering 60%
+                        off all courses sitewide. Our Nanodegree programs teach you the skills sought out by today’s top
+                        companies — in as little as 4 months</span>
+                </div>
+                <div class="time">
+                    <p> 8:31 AM</p>
+                 </div>
+                <!-- <div class="time"><p>1:47 PM</p></div> -->
+            </div>
+            
+            <div class="message">
+                <div class="address">
+                    <span><input type="checkbox"></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><a href="">tackoverflow</a></span>
+                </div>
+                <br>
+                <div class="text">
+                    <span class="text-subject">Your matches are on hold</span>--
+                    <span class="text-body">Your job search status is open, but not actively looking, but we need more
+                        information before accelerating your matches. Once you tell us just a little bit more about
+                        yourself, we’ll get you in front of companies and send you any new jobs that match your
+                        interest</span>
+                </div>
+                <div class="time">
+                    <p> 8:31 AM</p>
+                 </div>
+                <!-- <div class="time"><p>1:47 PM</p></div> -->
+            </div>
+            <div class="message">
+                <div class="address">
+                    <span><input type="checkbox"></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><a href="">ISSE Abdullahi</a></span>
+                </div>
+                <br>
+                <div class="text">
+                    <span class="text-subject">Please Advantage and disadvantage ma u yeeli kartaa motionka macalin</span>--
+                    <span class="text-body">To celebrate the launch of our School of Cybersecurity, we’re offering 60%
+                        off all courses sitewide. Our Nanodegree programs teach you the skills sought out by today’s top
+                        companies — in as little as 4 months</span>
+                </div>
+                <div class="time">
+                    <p> 8:31 AM</p>
+                 </div>
+                <!-- <div class="time"><p>1:47 PM</p></div> -->
+            </div>
+            <div class="message">
+                <div class="address">
+                    <span><input type="checkbox"></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><a href="">ProFreeHost
+                        </a></span>
+                </div>
+                <br>
+                <div class="text">
+                    <span class="text-subject">Oop! Account Suspended Because of Inactivity
+                    </span>--
+                    <span class="text-body">Hi, Your account unaux_27224260 has been suspended because it received less than 5 hits in last 30 Your website will be offline, however all the content on your account is still unaffected.
+                        You can re-activate it anytime you want.  .</span>
+                </div>
+                <div class="time">
+                    <p> 8:31 AM</p>
+                 </div>
+                <!-- <div class="time"><p>1:47 PM</p></div> -->
+            </div>
+            <div class="message">
+                <div class="address">
+                    <span><input type="checkbox"></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><a href="">Udacity</a></span>
+                </div>
+                <br>
+               
+                <div class="text">
+                    <span class="text-subject">Receive 60% off when you enroll in the latest cybersecurity
+                        programs.</span>--
+                    <span class="text-body">To celebrate the launch of our School of Cybersecurity, we’re offering 60%
+                        off all courses sitewide. Our Nanodegree programs teach you the skills sought out by today’s top
+                        companies — in as little as 4 months</span>
+                </div>
+                <div class="time">
+                   <p> 8:31 AM</p>
+                </div>
+                <!-- <div class="time"><p>1:47 PM</p></div> -->
+            </div>
+            <div class="message">
+                <div class="address">
+                    <span><input type="checkbox"></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><a href="">Udacity</a></span>
+                </div>
+                <br>
+                <div class="text">
+                    <span class="text-subject">Receive 60% off when you enroll in the latest cybersecurity
+                        programs.</span>--
+                    <span class="text-body">To celebrate the launch of our School of Cybersecurity, we’re offering 60%
+                        off all courses sitewide. Our Nanodegree programs teach you the skills sought out by today’s top
+                        companies — in as little as 4 months</span>
+                </div>
+                <div class="time">
+                    <p> 8:31 AM</p>
+                 </div>
+                <!-- <div class="time"><p>1:47 PM</p></div> -->
+            </div>
+            <div class="message">
+                <div class="address">
+                    <span><input type="checkbox"></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><a href="">Udacity</a></span>
+                </div>
+                <br>
+                <div class="text">
+                    <span class="text-subject">Receive 60% off when you enroll in the latest cybersecurity
+                        programs.</span>--
+                    <span class="text-body">To celebrate the launch of our School of Cybersecurity, we’re offering 60%
+                        off all courses sitewide. Our Nanodegree programs teach you the skills sought out by today’s top
+                        companies — in as little as 4 months</span>
+                </div>
+                <div class="time">
+                    <p> 8:31 AM</p>
+                 </div>
+                <!-- <div class="time"><p>1:47 PM</p></div> -->
+            </div>
+            <div class="message">
+                <div class="address">
+                    <span><input type="checkbox"></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><a href="">Udacity</a></span>
+                </div>
+                <br>
+                <div class="text">
+                    <span class="text-subject">Receive 60% off when you enroll in the latest cybersecurity
+                        programs.</span>--
+                    <span class="text-body">To celebrate the launch of our School of Cybersecurity, we’re offering 60%
+                        off all courses sitewide. Our Nanodegree programs teach you the skills sought out by today’s top
+                        companies — in as little as 4 months</span>
+                </div>
+                <div class="time">
+                    <p> 8:31 AM</p>
+                 </div>
+                <!-- <div class="time"><p>1:47 PM</p></div> -->
+            </div>
+            <div class="message">
+                <div class="address">
+                    <span><input type="checkbox"></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><a href="">Udacity</a></span>
+                </div>
+                <br>
+                <div class="text">
+                    <span class="text-subject">Receive 60% off when you enroll in the latest cybersecurity
+                        programs.</span>--
+                    <span class="text-body">To celebrate the launch of our School of Cybersecurity, we’re offering 60%
+                        off all courses sitewide. Our Nanodegree programs teach you the skills sought out by today’s top
+                        companies — in as little as 4 months</span>
+                </div>
+                <div class="time">
+                    <p> 8:31 AM</p>
+                 </div>
+                <!-- <div class="time"><p>1:47 PM</p></div> -->
+            </div>
+            <div class="message">
+                <div class="address">
+                    <span><input type="checkbox"></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><a href="">Udacity</a></span>
+                </div>
+                <br>
+                <div class="text">
+                    <span class="text-subject">Receive 60% off when you enroll in the latest cybersecurity
+                        programs.</span>--
+                    <span class="text-body">To celebrate the launch of our School of Cybersecurity, we’re offering 60%
+                        off all courses sitewide. Our Nanodegree programs teach you the skills sought out by today’s top
+                        companies — in as little as 4 months</span>
+                </div>
+                <div class="time">
+                    8:31 AM
+                </div>
+                <!-- <div class="time"><p>1:47 PM</p></div> -->
+            </div>
+            <div class="message">
+                <div class="address">
+                    <span><input type="checkbox"></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><a href="">Udacity</a></span>
+                </div>
+                <br>
+                <div class="text">
+                    <span class="text-subject">Receive 60% off when you enroll in the latest cybersecurity
+                        programs.</span>--
+                    <span class="text-body">To celebrate the launch of our School of Cybersecurity, we’re offering 60%
+                        off all courses sitewide. Our Nanodegree programs teach you the skills sought out by today’s top
+                        companies — in as little as 4 months</span>
+                </div>
+                <div class="time">
+                    8:31 AM
+                </div>
+                <!-- <div class="time"><p>1:47 PM</p></div> -->
+            </div>
+            <div class="message">
+                <div class="address">
+                    <span><input type="checkbox"></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><a href="">Udacity</a></span>
+                </div>
+                <br>
+                <div class="text">
+                    <span class="text-subject">Receive 60% off when you enroll in the latest cybersecurity
+                        programs.</span>--
+                    <span class="text-body">To celebrate the launch of our School of Cybersecurity, we’re offering 60%
+                        off all courses sitewide. Our Nanodegree programs teach you the skills sought out by today’s top
+                        companies — in as little as 4 months</span>
+                </div>
+                <div class="time">
+                    8:31 AM
+                </div>
+                <!-- <div class="time"><p>1:47 PM</p></div> -->
+            </div>
+            <div class="message">
+                <div class="address">
+                    <span><input type="checkbox"></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><a href="">Udacity</a></span>
+                </div>
+                <br>
+                <div class="text">
+                    <span class="text-subject">Receive 60% off when you enroll in the latest cybersecurity
+                        programs.</span>--
+                    <span class="text-body">To celebrate the launch of our School of Cybersecurity, we’re offering 60%
+                        off all courses sitewide. Our Nanodegree programs teach you the skills sought out by today’s top
+                        companies — in as little as 4 months</span>
+                </div>
+                <div class="time">
+                    8:31 AM
+                </div>
+                <!-- <div class="time"><p>1:47 PM</p></div> -->
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal">
+        <div class="header-modal">
+            <p>New Message</p>
+            <span class="top-right-header">
+                <span id="close"> <i class="fas fa-minus" id="close-minus"></i></span>
+                <span> <i class="fas fa-expand-alt"></i></span>
+                <span id="close-modal"><i class="fas fa-times"></i></span>
+            </span>
+        </div>
+        <div class="to-modal">
+            <p class="CcBcc">Cc Bcc</p>
+            <input type="email" name="" placeholder="To"  class="input-email">
+
+        </div>
+        <div class="to-subject">
+            <input type="text" name="" placeholder="SUbject" class="input-subject">
+        </div>
+        <div class="text-area-modal">
+            <textarea name="" id="textarea"></textarea>
+        </div>
+        <div class="attach-modal">
+            <span class="left-attach">
+                <button class="btn-send-attach">
+                    <p>Send</p><i class="fas fa-caret-down"></i>
+                </button>
+            </span>
+            <span class="center-attach-modal">
+                <span><i class="fab fa-autoprefixer"></i></span>
+                <span><i class="fas fa-camera"></i></span>
+                <span><i class="fas fa-paperclip"></i></span>
+                <span><i class="fas fa-link"></i></span>
+                <span><i class="far fa-smile-wink"></i></span>
+                <span><i class="fab fa-google-drive"></i></span>
+                <span><i class="fas fa-image"></i></span>
+                <span><i class="fas fa-user-clock"></i></span>
+            </span>
+            <span class="right-attach-modal">
+                <span><i class="fas fa-ellipsis-v"></i></span>
+                <span><i class="fas fa-trash"></i></span>
+            </span>
+           
+        </div>
+    </div>
+    <script src="../js/Jquery3.4.1.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
